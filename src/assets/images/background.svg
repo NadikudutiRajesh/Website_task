@@ -1,0 +1,36 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a4d7a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#2d6fa0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4a8fb5;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="mountainGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a3a52;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d1f2d;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Sky Background -->
+  <rect width="1920" height="1080" fill="url(#skyGradient)"/>
+  
+  <!-- Mountain Peaks -->
+  <polygon points="0,700 400,300 800,650 1200,250 1600,600 1920,500 1920,1080 0,1080" fill="url(#mountainGradient)" opacity="0.9"/>
+  
+  <!-- Additional Mountain Layer -->
+  <polygon points="0,800 300,500 700,750 1100,400 1500,700 1920,600 1920,1080 0,1080" fill="#0a1520" opacity="0.7"/>
+  
+  <!-- Snow Caps -->
+  <polygon points="400,300 450,400 350,400" fill="#ffffff" opacity="0.8"/>
+  <polygon points="1200,250 1280,380 1120,380" fill="#ffffff" opacity="0.8"/>
+  <polygon points="800,650 850,750 750,750" fill="#ffffff" opacity="0.6"/>
+  
+  <!-- Clouds -->
+  <ellipse cx="200" cy="150" rx="150" ry="60" fill="#ffffff" opacity="0.2"/>
+  <ellipse cx="1700" cy="250" rx="200" ry="70" fill="#ffffff" opacity="0.15"/>
+  <ellipse cx="950" cy="200" rx="180" ry="50" fill="#ffffff" opacity="0.1"/>
+  
+  <!-- Distant Forest silhouette -->
+  <rect x="0" y="850" width="1920" height="230" fill="#051015" opacity="0.6"/>
+</svg>
